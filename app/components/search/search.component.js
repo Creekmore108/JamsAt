@@ -9,21 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var spotify_service_1 = require('./services/spotify.service');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.name = '';
+var SearchComponent = (function () {
+    function SearchComponent() {
     }
-    AppComponent = __decorate([
+    SearchComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'my-app',
-            templateUrl: "app.component.html",
-            providers: [spotify_service_1.SpotifyService]
+            selector: 'search',
+            templateUrl: "search.component.html"
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], SearchComponent);
+    return SearchComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.SearchComponent = SearchComponent;
+//# sourceMappingURL=search.component.js.map

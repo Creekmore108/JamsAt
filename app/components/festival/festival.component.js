@@ -9,21 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var spotify_service_1 = require('./services/spotify.service');
-var AppComponent = (function () {
-    function AppComponent() {
+var FestivalComponent = (function () {
+    function FestivalComponent() {
         this.name = '';
     }
-    AppComponent = __decorate([
+    FestivalComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'my-app',
-            templateUrl: "app.component.html",
-            providers: [spotify_service_1.SpotifyService]
+            selector: 'festival',
+            templateUrl: "festival.component.html"
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], FestivalComponent);
+    return FestivalComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.FestivalComponent = FestivalComponent;
+//# sourceMappingURL=festival.component.js.map
